@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --color-canvas: #000000;
+  --color-surface: #121212;
+  --color-card: #181818;
+  --color-card-hover: #232323;
+  --color-raised: #2a2a2a;
+  --color-line: #282828;
+  --color-line-strong: #3e3e3e;
+  --color-ink: #ffffff;
+  --color-muted: #b3b3b3;
+  --color-subtle: #8f8f8f;
+  --color-accent: #1ed760;
+  --color-accent-hover: #3be477;
+  --color-accent-soft: #10321d;
+  --color-accent-ink: #000000;
+  --color-warn: #f5b544;
+  --color-danger: #f3727f;
+
+  --font-sans: 'Figtree', 'Noto Sans Devanagari', system-ui, sans-serif;
+  --font-hindi: 'Noto Sans Devanagari', 'Figtree', sans-serif;
+}
+
 :root {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: 'Figtree', 'Noto Sans Devanagari', system-ui, sans-serif;
   color-scheme: dark;
 }
 

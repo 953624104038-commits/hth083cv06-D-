@@ -280,3 +280,7 @@ export function getGesture3D(signId: string): GestureAnimationDefinition | null 
   );
   return normalizedKey ? GESTURE_3D_REGISTRY[normalizedKey] : null;
 }
+
+export function has3D(signId: string): boolean {
+  return getGesture3D(signId) !== null;
+}
