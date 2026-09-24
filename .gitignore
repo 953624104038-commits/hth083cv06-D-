@@ -57,3 +57,6 @@ yarn-error.log*
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Magic Patterns Exports / Backups (Untracked)
+500cecd5*
