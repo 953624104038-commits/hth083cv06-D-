@@ -1,0 +1,59 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & Landmarks (Raw video dataset is preserved locally, do not push massive binaries to git)
+datasets/landmarks/*.npy
+datasets/landmarks/*.npz
+datasets/processed/*
+!datasets/processed/.gitkeep
+datasets/raw/*
+!datasets/raw/.gitkeep
+
+# Models (Keep model metadata and task model, ignore very large intermediate checkpoints if any)
+models/*.tmp
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store

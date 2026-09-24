@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-09-24 22:52:35",
+  "tests": {
+    "vocab_consistency": {
+      "model_classes": 61,
+      "vocab_classes": 61,
+      "discrepancies": [],
+      "passed": true
+    },
+    "no_hand_handling": "PASSED: Immediate state clear on zero hands without stale output.",
+    "false_positives": {
+      "trials": 200,
+      "false_positive_triggers": 0,
+      "false_positive_rate_percent": 0.0
+    },
+    "sequence_tracking": "PASSED: Target tracking correctly enforces sequence order and avoids premature completion.",
+    "video_benchmark": {
+      "Hello.mp4": {
+        "expected": "Hello",
+        "frames_tested": 25,
+        "hands_detected_frames": 25,
+        "avg_latency_ms": 47.64,
+        "sample_recognitions": [
+          [
+            "Still",
+            0.52,
+            true
+          ],
+          [
+            "Still",
+            0.54,
+            true
+          ],
+          [
+            "Still",
+            0.56,
+            true
+          ]
+        ]
+      },
+      "Thank you.mp4": {
+        "expected": "Thank you",
+        "frames_tested": 25,
+        "hands_detected_frames": 25,
+        "avg_latency_ms": 47.04,
+        "sample_recognitions": [
+          [
+            "Still",
+            0.76,
+            false
+          ],
+          [
+            "Still",
+            0.76,
+            true
+          ],
+          [
+            "Still",
+            0.76,
+            true
+          ]
+        ]
+      },
+      "Clean.mp4": {
+        "expected": "Clean",
+        "frames_tested": 25,
+        "hands_detected_frames": 25,
+        "avg_latency_ms": 46.98,
+        "sample_recognitions": [
+          [
+            "Still",
+            0.61,
+            false
+          ],
+          [
+            "Still",
+            0.63,
+            true
+          ],
+          [
+            "Still",
+            0.63,
+            true
+          ]
+        ]
+      },
+      "Drink.mp4": {
+        "expected": "Drink",
+        "frames_tested": 25,
+        "hands_detected_frames": 25,
+        "avg_latency_ms": 47.53,
+        "sample_recognitions": [
+          [
+            "Still",
+            0.73,
+            false
+          ],
+          [
+            "Still",
+            0.7,
+            true
+          ],
+          [
+            "Still",
+            0.69,
+            true
+          ]
+        ]
+      },
+      "Injury.mp4": {
+        "expected": "Injury",
+        "frames_tested": 25,
+        "hands_detected_frames": 25,
+        "avg_latency_ms": 46.31,
+        "sample_recognitions": []
+      }
+    },
+    "isl_asl_isolation": {
+      "isl_mentions": 13,
+      "asl_mentions": 0,
+      "clean_isolation": true
+    }
+  },
+  "failures": [],
+  "metrics": {}
+}

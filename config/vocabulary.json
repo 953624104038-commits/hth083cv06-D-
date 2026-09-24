@@ -1,0 +1,618 @@
+{
+  "language": "ISL",
+  "language_full_name": "Indian Sign Language",
+  "domain": "Accessibility-First Communication Bridge (61 Full Vocabulary)",
+  "num_classes": 61,
+  "classes": [
+    {
+      "id": 0,
+      "label": "Bear",
+      "display_name": "Bear",
+      "hindi_name": "भालू",
+      "category": "Animals",
+      "how_to_perform": "Cross hands over chest with clawed fingers scratching shoulders lightly.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 1,
+      "label": "Break",
+      "display_name": "Break",
+      "hindi_name": "विराम / तोड़ना",
+      "category": "Actions",
+      "how_to_perform": "Hold both fists together in front of chest and snap wrists outward as if breaking a stick.",
+      "scenario": "Work & Emergency",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 2,
+      "label": "Brinjal",
+      "display_name": "Brinjal",
+      "hindi_name": "बैंगन",
+      "category": "Food & Groceries",
+      "how_to_perform": "Shape left fist like an eggplant and use right hand to show the green cap/stem.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 3,
+      "label": "Budget",
+      "display_name": "Budget",
+      "hindi_name": "बजट",
+      "category": "Finance & Counter",
+      "how_to_perform": "Tap index and middle fingers of right hand onto open left palm, indicating calculation/money.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 4,
+      "label": "Busy",
+      "display_name": "Busy",
+      "hindi_name": "व्यस्त",
+      "category": "Status & Daily",
+      "how_to_perform": "Move right hand quickly back and forth across wrist of left hand to show packed schedule.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 5,
+      "label": "Cabbage",
+      "display_name": "Cabbage",
+      "hindi_name": "पत्ता गोभी",
+      "category": "Food & Groceries",
+      "how_to_perform": "Cup both hands together forming a round ball shape indicating layers of cabbage leaves.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 6,
+      "label": "Carrot",
+      "display_name": "Carrot",
+      "hindi_name": "गाजर",
+      "category": "Food & Groceries",
+      "how_to_perform": "Hold right fist near mouth like holding a carrot and mimic taking a bite.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 7,
+      "label": "Cauliflower",
+      "display_name": "Cauliflower",
+      "hindi_name": "फूलगोभी",
+      "category": "Food & Groceries",
+      "how_to_perform": "Cup hands together then flare fingers outward representing cauliflower florets.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 8,
+      "label": "Chilli",
+      "display_name": "Chilli",
+      "hindi_name": "मिर्च",
+      "category": "Food & Groceries",
+      "how_to_perform": "Pinch thumb and index finger to show small size, then fan open hand near mouth indicating spicy.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 9,
+      "label": "Clean",
+      "display_name": "Clean",
+      "hindi_name": "साफ",
+      "category": "Service",
+      "how_to_perform": "Brush flat right palm smoothly across flat left palm moving outward away from body.",
+      "scenario": "Hospital & Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 10,
+      "label": "Close",
+      "display_name": "Close",
+      "hindi_name": "बंद",
+      "category": "Actions",
+      "how_to_perform": "Both open palms facing forward, swing both hands together until index fingers touch to close.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 11,
+      "label": "Come",
+      "display_name": "Come",
+      "hindi_name": "आइए / पास आएं",
+      "category": "Direction",
+      "how_to_perform": "Extend open hand with palm facing body, waving fingers inward toward chest.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 12,
+      "label": "Cook",
+      "display_name": "Cook",
+      "hindi_name": "पकाना",
+      "category": "Daily & Food",
+      "how_to_perform": "Rest left hand as a pan, move right hand flat in circular stirring motion over it.",
+      "scenario": "Dining & Home",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 13,
+      "label": "Crocodile",
+      "display_name": "Crocodile",
+      "hindi_name": "मगरमच्छ",
+      "category": "Animals",
+      "how_to_perform": "Extend both arms forward one above the other, clapping hands together like jaws snapping.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 14,
+      "label": "Cry",
+      "display_name": "Cry",
+      "hindi_name": "रोना",
+      "category": "Emergency & Emotion",
+      "how_to_perform": "Draw index fingers downward along cheeks repeatedly indicating tears falling.",
+      "scenario": "Medical & Emergency",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 15,
+      "label": "Cucumber",
+      "display_name": "Cucumber",
+      "hindi_name": "खीरा",
+      "category": "Food & Groceries",
+      "how_to_perform": "Hold cylindrical shape between hands and mimic slicing it with right index finger.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 16,
+      "label": "Deer",
+      "display_name": "Deer",
+      "hindi_name": "हिरण",
+      "category": "Animals",
+      "how_to_perform": "Place both open hands at sides of head with fingers spread wide like deer antlers.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 17,
+      "label": "Drink",
+      "display_name": "Drink",
+      "hindi_name": "पीना",
+      "category": "Dining & Refreshment",
+      "how_to_perform": "Form right hand into a C-cup shape, tilt hand toward mouth as if drinking from a glass.",
+      "scenario": "Dining & Service",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 18,
+      "label": "Elephant",
+      "display_name": "Elephant",
+      "hindi_name": "हाथी",
+      "category": "Animals",
+      "how_to_perform": "Trace long sweeping curve outward from nose downward and up like an elephant trunk.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 19,
+      "label": "Exam",
+      "display_name": "Exam",
+      "hindi_name": "परीक्षा",
+      "category": "Education & Service",
+      "how_to_perform": "Hold open hands facing down and flip both hands upward in unison like turning exam papers.",
+      "scenario": "Education & Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 20,
+      "label": "Fedup",
+      "display_name": "Fedup",
+      "hindi_name": "तंग आ जाना",
+      "category": "Emotion & Status",
+      "how_to_perform": "Tap the side of hand against the neck or forehead indicating reached the limit.",
+      "scenario": "Conversation",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 21,
+      "label": "Fever",
+      "display_name": "Fever",
+      "hindi_name": "बुखार",
+      "category": "Healthcare & Medical",
+      "how_to_perform": "Place the back of fingers against forehead while shaking hand slightly to indicate high temperature.",
+      "scenario": "Hospital & Medical",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 22,
+      "label": "Giraffe",
+      "display_name": "Giraffe",
+      "hindi_name": "जिराफ",
+      "category": "Animals",
+      "how_to_perform": "Extend right arm upward from throat high above head mimicking a very long neck.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 23,
+      "label": "Give",
+      "display_name": "Give",
+      "hindi_name": "देना",
+      "category": "Service & Requests",
+      "how_to_perform": "Hold both hands with cupped palms facing up, moving smoothly forward toward counter staff.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 24,
+      "label": "Good afternoon",
+      "display_name": "Good afternoon",
+      "hindi_name": "शुभ दोपहर",
+      "category": "Greeting",
+      "how_to_perform": "Touch fingertips to chin (good), then point index finger high representing midday sun.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 25,
+      "label": "Good Morning",
+      "display_name": "Good Morning",
+      "hindi_name": "शुभ प्रभात",
+      "category": "Greeting",
+      "how_to_perform": "Touch fingertips to chin (good), then raise right hand upward from left forearm like sunrise.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 26,
+      "label": "Hello",
+      "display_name": "Hello",
+      "hindi_name": "नमस्ते / हैलो",
+      "category": "Greeting",
+      "how_to_perform": "Bring flat hand with open palm to eye level waving gently or formal Namaste gesture.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 27,
+      "label": "Hug",
+      "display_name": "Hug",
+      "hindi_name": "गले मिलना",
+      "category": "Social & Expression",
+      "how_to_perform": "Cross both arms over chest and clasp shoulders warmly.",
+      "scenario": "Social & Family",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 28,
+      "label": "Injury",
+      "display_name": "Injury",
+      "hindi_name": "चोट / घाव",
+      "category": "Healthcare & Medical",
+      "how_to_perform": "Point index fingers toward each other over injured spot twisting wrists in a hurt motion.",
+      "scenario": "Hospital & Emergency",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 29,
+      "label": "Interview",
+      "display_name": "Interview",
+      "hindi_name": "साक्षात्कार",
+      "category": "Service & Workplace",
+      "how_to_perform": "Point index fingers back and forth between yourself and the counter representative.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 30,
+      "label": "Jump",
+      "display_name": "Jump",
+      "hindi_name": "कूदना",
+      "category": "Action & Physical",
+      "how_to_perform": "Bend index and middle fingers of right hand standing on left palm, bouncing upward.",
+      "scenario": "Actions & Sports",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 31,
+      "label": "Karnataka",
+      "display_name": "Karnataka",
+      "hindi_name": "कर्नाटक",
+      "category": "Location & Region",
+      "how_to_perform": "Form K-handshape and move hand gently forward and across chest.",
+      "scenario": "Official & Geography",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 32,
+      "label": "Key",
+      "display_name": "Key",
+      "hindi_name": "चाबी",
+      "category": "Objects & Security",
+      "how_to_perform": "Place thumb and bent index finger against flat left palm and twist as if unlocking a lock.",
+      "scenario": "Daily & Security",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 33,
+      "label": "Knife",
+      "display_name": "Knife",
+      "hindi_name": "चाकू",
+      "category": "Objects & Utility",
+      "how_to_perform": "Slide right index finger smoothly across left index finger in a slicing motion.",
+      "scenario": "Daily & Tools",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 34,
+      "label": "Lemon",
+      "display_name": "Lemon",
+      "hindi_name": "नींबू",
+      "category": "Food & Groceries",
+      "how_to_perform": "Form fist near mouth and squeeze fingers while squinting indicating sour lemon juice.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 35,
+      "label": "Lion",
+      "display_name": "Lion",
+      "hindi_name": "शेर",
+      "category": "Animals",
+      "how_to_perform": "Curve both hands like claws sweeping back over head indicating a lion mane and roar.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 36,
+      "label": "Man",
+      "display_name": "Man",
+      "hindi_name": "पुरुष / आदमी",
+      "category": "People & Identity",
+      "how_to_perform": "Stroke thumb and index finger along upper lip indicating a mustache.",
+      "scenario": "Identity & Family",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 37,
+      "label": "Maths",
+      "display_name": "Maths",
+      "hindi_name": "गणित",
+      "category": "Education & Learning",
+      "how_to_perform": "Rub M-handshapes together across wrists indicating calculations.",
+      "scenario": "Education",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 38,
+      "label": "Maybe",
+      "display_name": "Maybe",
+      "hindi_name": "शायद",
+      "category": "Conversation",
+      "how_to_perform": "Hold both open palms up at chest level, alternately raising one hand while lowering the other.",
+      "scenario": "Conversation",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 39,
+      "label": "Monkey",
+      "display_name": "Monkey",
+      "hindi_name": "बंदर",
+      "category": "Animals",
+      "how_to_perform": "Scratch sides of ribs/armpits upward with curved fingers mimicking a monkey.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 40,
+      "label": "Onion",
+      "display_name": "Onion",
+      "hindi_name": "प्याज",
+      "category": "Food & Groceries",
+      "how_to_perform": "Twist knuckle of index finger against cheek near eye as if rubbing away onion tears.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 41,
+      "label": "Peacock",
+      "display_name": "Peacock",
+      "hindi_name": "मोर",
+      "category": "Animals",
+      "how_to_perform": "Place back of right wrist against forehead with fingers fanned out wide like peacock feathers.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 42,
+      "label": "Pigeon",
+      "display_name": "Pigeon",
+      "hindi_name": "कबूतर",
+      "category": "Animals",
+      "how_to_perform": "Bring thumb and index finger together near mouth opening and closing like a pecking beak.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 43,
+      "label": "Pour",
+      "display_name": "Pour",
+      "hindi_name": "डालना / उंडेलना",
+      "category": "Dining & Service",
+      "how_to_perform": "Hold right hand like a pitcher and tilt smoothly downward as if pouring liquid into a cup.",
+      "scenario": "Dining & Service",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 44,
+      "label": "Radish",
+      "display_name": "Radish",
+      "hindi_name": "मूली",
+      "category": "Food & Groceries",
+      "how_to_perform": "Show long tapered root shape between hands, peeling downward with thumb.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 45,
+      "label": "Sparrow",
+      "display_name": "Sparrow",
+      "hindi_name": "गौरैया",
+      "category": "Animals",
+      "how_to_perform": "Pinch thumb and index finger chirping near lips, then flap hands lightly at sides.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 46,
+      "label": "Still",
+      "display_name": "Still",
+      "hindi_name": "अभी भी / शांत",
+      "category": "Conversation",
+      "how_to_perform": "Extend both Y-handshapes forward smoothly in parallel indicating ongoing state.",
+      "scenario": "Conversation",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 47,
+      "label": "Switch",
+      "display_name": "Switch",
+      "hindi_name": "बटन / स्विच",
+      "category": "Actions & Utility",
+      "how_to_perform": "Extend index finger and flick downward or upward as if toggling a wall switch.",
+      "scenario": "Daily & Facility",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 48,
+      "label": "Tea",
+      "display_name": "Tea",
+      "hindi_name": "चाय",
+      "category": "Dining & Refreshment",
+      "how_to_perform": "Pinch thumb and index finger (holding teabag or cup handle) and dip up and down over left fist.",
+      "scenario": "Dining & Service",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 49,
+      "label": "Temple",
+      "display_name": "Temple",
+      "hindi_name": "मंदिर",
+      "category": "Places & Culture",
+      "how_to_perform": "Bring palms together with fingertips touching at top forming a temple roof/shikhara.",
+      "scenario": "Culture & Places",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 50,
+      "label": "Thank you",
+      "display_name": "Thank you",
+      "hindi_name": "धन्यवाद",
+      "category": "Politeness",
+      "how_to_perform": "Touch fingertips to chin or lips and move flat hand forward toward the counter representative.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 51,
+      "label": "Tiger",
+      "display_name": "Tiger",
+      "hindi_name": "बाघ",
+      "category": "Animals",
+      "how_to_perform": "Pull curved claw hands horizontally across cheeks indicating tiger stripes.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 52,
+      "label": "Turtle",
+      "display_name": "Turtle",
+      "hindi_name": "कछुआ",
+      "category": "Animals",
+      "how_to_perform": "Cover right fist with left cupped hand (shell), with right thumb peeking out moving slowly.",
+      "scenario": "Wildlife & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 53,
+      "label": "Umbrella",
+      "display_name": "Umbrella",
+      "hindi_name": "छाता",
+      "category": "Objects & Weather",
+      "how_to_perform": "Hold right fist above left fist and push right fist upward as if popping open an umbrella.",
+      "scenario": "Daily & Travel",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 54,
+      "label": "Uncle",
+      "display_name": "Uncle",
+      "hindi_name": "अंकल / चाचा",
+      "category": "People & Family",
+      "how_to_perform": "Form U-handshape and shake gently near temple or side of forehead.",
+      "scenario": "Identity & Family",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 55,
+      "label": "Vegetables",
+      "display_name": "Vegetables",
+      "hindi_name": "सब्जियां",
+      "category": "Food & Groceries",
+      "how_to_perform": "Form V-handshape and twist index/middle fingers beside mouth or chin.",
+      "scenario": "Food & Market",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 56,
+      "label": "Volcano",
+      "display_name": "Volcano",
+      "hindi_name": "ज्वालामुखी",
+      "category": "Nature & Science",
+      "how_to_perform": "Form mountain shape with both hands, then erupt fingers upward exploding into air.",
+      "scenario": "Science & Nature",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 57,
+      "label": "What is your Name",
+      "display_name": "What is your Name",
+      "hindi_name": "आपका नाम क्या है?",
+      "category": "Questions & Inquiry",
+      "how_to_perform": "Tap index and middle fingers of both hands together horizontally in questioning motion.",
+      "scenario": "Service Counter",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 58,
+      "label": "Wife",
+      "display_name": "Wife",
+      "hindi_name": "पत्नी",
+      "category": "People & Family",
+      "how_to_perform": "Stroke jawline (female) and clasp hands together (marriage).",
+      "scenario": "Identity & Family",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 59,
+      "label": "Writer",
+      "display_name": "Writer",
+      "hindi_name": "लेखक",
+      "category": "People & Professions",
+      "how_to_perform": "Mimic holding pen writing rapidly across flat left palm, followed by person sign.",
+      "scenario": "Professions",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    },
+    {
+      "id": 60,
+      "label": "Wrong",
+      "display_name": "Wrong",
+      "hindi_name": "गलत",
+      "category": "Assistance & Corrections",
+      "how_to_perform": "Form Y-handshape with knuckles against chin indicating error or mistake.",
+      "scenario": "Assistance & Help",
+      "source": "Government of India ISLRTC & Benchmark Dataset"
+    }
+  ]
+}

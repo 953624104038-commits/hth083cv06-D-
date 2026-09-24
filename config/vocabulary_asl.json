@@ -1,0 +1,211 @@
+{
+  "language": "ASL",
+  "language_full_name": "American Sign Language Alphabet Fingerspelling",
+  "domain": "Virtual Keyboard & Sentence Typist (A-Z, Space, Del)",
+  "num_classes": 29,
+  "classes": [
+    {
+      "id": 0,
+      "label": "A",
+      "display_name": "A",
+      "type": "letter",
+      "how_to_perform": "Fist with thumb resting upright along the side of the index finger."
+    },
+    {
+      "id": 1,
+      "label": "B",
+      "display_name": "B",
+      "type": "letter",
+      "how_to_perform": "Four fingers held upright together, thumb folded flat across palm."
+    },
+    {
+      "id": 2,
+      "label": "C",
+      "display_name": "C",
+      "type": "letter",
+      "how_to_perform": "Curved hand forming a C-shape with all fingers and thumb."
+    },
+    {
+      "id": 3,
+      "label": "D",
+      "display_name": "D",
+      "type": "letter",
+      "how_to_perform": "Index finger pointing straight up, other three fingers touching thumb tip."
+    },
+    {
+      "id": 4,
+      "label": "E",
+      "display_name": "E",
+      "type": "letter",
+      "how_to_perform": "All four fingers curled tightly with tips resting on thumb."
+    },
+    {
+      "id": 5,
+      "label": "F",
+      "display_name": "F",
+      "type": "letter",
+      "how_to_perform": "Index fingertip touches thumb tip forming an O, other three fingers upright."
+    },
+    {
+      "id": 6,
+      "label": "G",
+      "display_name": "G",
+      "type": "letter",
+      "how_to_perform": "Index finger and thumb pointing horizontally forward in parallel."
+    },
+    {
+      "id": 7,
+      "label": "H",
+      "display_name": "H",
+      "type": "letter",
+      "how_to_perform": "Index and middle fingers extended horizontally forward together."
+    },
+    {
+      "id": 8,
+      "label": "I",
+      "display_name": "I",
+      "type": "letter",
+      "how_to_perform": "Little finger (pinky) pointing straight up, other fingers folded into fist."
+    },
+    {
+      "id": 9,
+      "label": "J",
+      "display_name": "J",
+      "type": "letter",
+      "how_to_perform": "Pinky points up and traces a J-curve in the air."
+    },
+    {
+      "id": 10,
+      "label": "K",
+      "display_name": "K",
+      "type": "letter",
+      "how_to_perform": "Index finger pointing up, middle finger angled forward, thumb between them."
+    },
+    {
+      "id": 11,
+      "label": "L",
+      "display_name": "L",
+      "type": "letter",
+      "how_to_perform": "Index finger pointing up and thumb extended outward forming an L-shape."
+    },
+    {
+      "id": 12,
+      "label": "M",
+      "display_name": "M",
+      "type": "letter",
+      "how_to_perform": "Fist with thumb tucked underneath the first three folded fingers."
+    },
+    {
+      "id": 13,
+      "label": "N",
+      "display_name": "N",
+      "type": "letter",
+      "how_to_perform": "Fist with thumb tucked underneath the first two folded fingers."
+    },
+    {
+      "id": 14,
+      "label": "O",
+      "display_name": "O",
+      "type": "letter",
+      "how_to_perform": "All fingertips touching thumb tip forming an O-shape circle."
+    },
+    {
+      "id": 15,
+      "label": "P",
+      "display_name": "P",
+      "type": "letter",
+      "how_to_perform": "Like K but directed downward with middle finger pointing down."
+    },
+    {
+      "id": 16,
+      "label": "Q",
+      "display_name": "Q",
+      "type": "letter",
+      "how_to_perform": "Like G but directed downward toward floor."
+    },
+    {
+      "id": 17,
+      "label": "R",
+      "display_name": "R",
+      "type": "letter",
+      "how_to_perform": "Index and middle fingers crossed over each other pointing upright."
+    },
+    {
+      "id": 18,
+      "label": "S",
+      "display_name": "S",
+      "type": "letter",
+      "how_to_perform": "Tight fist with thumb folded horizontally across the front of fingers."
+    },
+    {
+      "id": 19,
+      "label": "T",
+      "display_name": "T",
+      "type": "letter",
+      "how_to_perform": "Fist with thumb tucked between index and middle fingers."
+    },
+    {
+      "id": 20,
+      "label": "U",
+      "display_name": "U",
+      "type": "letter",
+      "how_to_perform": "Index and middle fingers held straight up together in parallel."
+    },
+    {
+      "id": 21,
+      "label": "V",
+      "display_name": "V",
+      "type": "letter",
+      "how_to_perform": "Index and middle fingers held straight up spread apart in a V-shape."
+    },
+    {
+      "id": 22,
+      "label": "W",
+      "display_name": "W",
+      "type": "letter",
+      "how_to_perform": "Index, middle, and ring fingers held straight up spread apart like a W."
+    },
+    {
+      "id": 23,
+      "label": "X",
+      "display_name": "X",
+      "type": "letter",
+      "how_to_perform": "Fist with index finger bent into a hook shape."
+    },
+    {
+      "id": 24,
+      "label": "Y",
+      "display_name": "Y",
+      "type": "letter",
+      "how_to_perform": "Thumb and pinky finger extended outward like a phone receiver."
+    },
+    {
+      "id": 25,
+      "label": "Z",
+      "display_name": "Z",
+      "type": "letter",
+      "how_to_perform": "Index finger traces a Z in the air."
+    },
+    {
+      "id": 26,
+      "label": "space",
+      "display_name": "Space",
+      "type": "action",
+      "how_to_perform": "Open hand held flat moving sideways, inserting a space."
+    },
+    {
+      "id": 27,
+      "label": "del",
+      "display_name": "Del",
+      "type": "action",
+      "how_to_perform": "Thumb and bent fingers flicking back, acting as a backspace/delete."
+    },
+    {
+      "id": 28,
+      "label": "nothing",
+      "display_name": "Nothing",
+      "type": "neutral",
+      "how_to_perform": "Resting or neutral hand between letters."
+    }
+  ]
+}

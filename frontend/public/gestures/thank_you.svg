@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 320" width="100%" height="100%">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <!-- Clean White Textbook Paper Background -->
+  <rect width="360" height="320" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="340" height="300" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+
+  <!-- Top Reference Header -->
+  <text x="24" y="32" font-family="'Times New Roman', Georgia, serif" font-size="12" font-weight="bold" fill="#374151" letter-spacing="1">
+    FIG. 04 — ISL: THANK YOU (CHIN TO FORWARD)
+  </text>
+  <line x1="24" y1="38" x2="336" y2="38" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ================= SUBTLE CHIN / JAW ANCHOR LINE ================= -->
+  <!-- Schematic reference mark indicating chin origin (textbook style) -->
+  <path d="M 55 90 C 70 120 90 135 115 140 C 130 142 145 138 155 130"
+        fill="none" stroke="#D1D5DB" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <text x="55" y="80" font-family="'Courier New', Courier, monospace" font-size="9" fill="#9CA3AF">
+    [CHIN LEVEL]
+  </text>
+
+  <!-- ================= DOTTED END POSITION (FORWARD EXTENDED) ================= -->
+  <g stroke="#9CA3AF" stroke-width="1.8" stroke-dasharray="4 4" fill="#F9FAFB" fill-opacity="0.5">
+    <!-- Dotted forearm extending forward -->
+    <path d="M 210 240 L 228 175 L 260 170 L 250 240 Z"/>
+    <!-- Dotted open hand extended toward partner -->
+    <path d="M 228 175 C 230 155 240 145 255 145 C 265 145 272 155 270 170 Z"/>
+    <!-- Dotted fingers pointing outward/upward -->
+    <path d="M 235 150 L 250 85 L 258 85 L 246 148 Z"/>
+    <path d="M 248 148 L 265 80 L 273 80 L 256 148 Z"/>
+    <path d="M 257 148 L 278 88 L 286 88 L 266 150 Z"/>
+    <path d="M 267 150 L 290 102 L 297 105 L 275 158 Z"/>
+  </g>
+
+  <!-- ================= INSTRUCTIONAL FORWARD SWEEP ARROWS ================= -->
+  <!-- Main forward arc arrow -->
+  <path d="M 145 110 C 175 90 210 95 235 115" fill="none" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Secondary movement trace -->
+  <path d="M 130 130 C 160 115 195 120 220 138" fill="none" stroke="#4B5563" stroke-width="1.8" stroke-dasharray="3 3"/>
+
+  <!-- ================= PRIMARY HAND (AT CHIN START POSITION) ================= -->
+  <!-- Forearm coming from lower center -->
+  <path d="M 125 260 L 118 190 L 145 186 L 158 260 Z" fill="#FFFFFF" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 124 200 C 132 203 140 202 144 200" fill="none" stroke="#6B7280" stroke-width="1.4"/>
+
+  <!-- Palm Base (Side/profile view angled toward mouth/chin) -->
+  <path d="M 118 188 C 112 170 110 145 114 130 C 120 125 138 126 145 134 C 148 145 148 170 145 186 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Thumb (Resting naturally alongside palm) -->
+  <path d="M 116 160 C 106 154 102 142 106 135 C 110 130 116 132 120 138"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+
+  <!-- 4 Fingers (Flat, extended straight, tips touching/pointing near chin) -->
+  <!-- Index finger -->
+  <path d="M 115 130 L 114 74 C 114 66 122 66 123 74 L 124 126"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="116" y1="102" x2="122" y2="102" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="116" y1="84" x2="122" y2="84" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Middle finger -->
+  <path d="M 124 126 L 126 65 C 126 57 134 57 135 65 L 135 128"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="127" y1="96" x2="133" y2="96" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="127" y1="78" x2="133" y2="78" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Ring finger -->
+  <path d="M 135 128 L 137 72 C 137 64 144 64 145 72 L 144 132"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="138" y1="100" x2="143" y2="100" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="138" y1="82" x2="143" y2="82" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Pinky finger -->
+  <path d="M 144 132 L 148 88 C 148 82 154 82 155 88 L 148 140"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="147" y1="112" x2="152" y2="112" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="147" y1="98" x2="152" y2="98" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Descriptive Technical Annotations (Textbook style) -->
+  <g font-family="'Courier New', Courier, monospace" font-size="10" fill="#374151">
+    <text x="24" y="278">1. FLAT HAND TOUCHES CHIN</text>
+    <text x="24" y="294">2. PALM INWARD AT START</text>
+    <text x="210" y="294">3. SWEEP FORWARD ↗</text>
+  </g>
+</svg>

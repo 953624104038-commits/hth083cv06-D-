@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 320" width="100%" height="100%">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <!-- Clean White Textbook Paper Background -->
+  <rect width="360" height="320" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="340" height="300" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+
+  <!-- Top Reference Header -->
+  <text x="24" y="32" font-family="'Times New Roman', Georgia, serif" font-size="12" font-weight="bold" fill="#374151" letter-spacing="1">
+    FIG. 02 — ISL: HELP (2-HAND ASSIST)
+  </text>
+  <line x1="24" y1="38" x2="336" y2="38" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ================= DOTTED END POSITION (UPWARD LIFTED POSITION) ================= -->
+  <g stroke="#9CA3AF" stroke-width="1.8" stroke-dasharray="4 4" fill="#F9FAFB" fill-opacity="0.5">
+    <!-- Dotted Right Fist (Elevated) -->
+    <path d="M 160 125 C 152 115 154 90 162 82 C 172 74 195 74 204 82 C 210 92 210 115 202 125 Z"/>
+    <!-- Dotted Thumb Upright -->
+    <path d="M 162 85 C 160 70 162 55 168 50 C 174 48 180 54 178 70 Z"/>
+    <!-- Dotted Left Base Palm (Elevated) -->
+    <path d="M 105 130 C 130 135 190 135 240 125 C 248 123 252 135 245 140 C 205 152 140 152 100 142 Z"/>
+  </g>
+
+  <!-- ================= INSTRUCTIONAL UPWARD MOVEMENT ARROWS ================= -->
+  <!-- Left Side Upward Arrow -->
+  <path d="M 125 185 L 125 142" fill="none" stroke="#111827" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Center Main Lift Arrow -->
+  <path d="M 182 170 L 182 126" fill="none" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Right Side Upward Arrow -->
+  <path d="M 240 185 L 240 142" fill="none" stroke="#111827" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- ================= PRIMARY HANDS (BLACK INK TEXTBOOK ART) ================= -->
+
+  <!-- 1. LEFT HAND (NON-DOMINANT BASE): FLAT PALM UPWARD -->
+  <!-- Forearm entering from lower left -->
+  <path d="M 45 250 L 110 220 L 115 235 L 50 268 Z" fill="#FFFFFF" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Left Hand Open Palm Base (Flat, Horizontal Platform) -->
+  <path d="M 105 212 C 120 205 150 202 185 204 C 215 204 245 208 265 202 C 274 200 276 214 268 218 C 240 228 190 230 145 228 C 120 226 100 220 95 215 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+  
+  <!-- Left Hand Fingers (Extended together laterally forward) -->
+  <!-- Thumb -->
+  <path d="M 112 205 C 105 192 112 182 120 186 C 128 190 135 198 138 205" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+  <!-- Finger joint separation lines on left palm -->
+  <path d="M 185 208 C 215 208 245 210 262 206" fill="none" stroke="#4B5563" stroke-width="1.2"/>
+  <path d="M 185 214 C 215 214 245 216 260 212" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+  <path d="M 185 220 C 210 220 235 222 252 218" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+
+  <!-- 2. RIGHT HAND (DOMINANT SUPPORT): CLOSED FIST RESTING ON PALM -->
+  <!-- Right forearm entering from lower right -->
+  <path d="M 285 285 L 225 215 L 210 218 L 265 292 Z" fill="#FFFFFF" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 228 225 C 235 235 245 248 255 260" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+
+  <!-- Right Fist (Resting directly on the Left Palm platform) -->
+  <path d="M 160 198 C 150 185 152 155 160 142 C 170 132 198 132 208 142 C 215 155 215 185 204 198 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Folded Fingers of Right Fist (Clear Knuckles) -->
+  <!-- Index knuckle folded -->
+  <path d="M 160 148 C 168 144 185 144 192 148 C 196 154 188 160 178 160 C 168 160 162 154 160 148 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="1.8"/>
+  <!-- Middle knuckle folded -->
+  <path d="M 160 162 C 170 158 186 158 194 162 C 198 168 190 174 180 174 C 170 174 162 168 160 162 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="1.8"/>
+  <!-- Ring & Pinky knuckles folded -->
+  <path d="M 162 176 C 172 172 188 172 196 176 C 200 182 192 188 182 188 C 172 188 164 182 162 176 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="1.8"/>
+
+  <!-- Upright Thumb of the Right Fist (Pointing Upward) -->
+  <path d="M 162 145 C 158 128 160 110 166 102 C 174 98 182 104 180 124 C 178 136 176 144 174 150"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Thumb knuckle and nail detail -->
+  <path d="M 168 112 C 172 110 176 112 178 115" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Contact/Support lines showing fist firmly placed upon the flat palm -->
+  <path d="M 160 200 L 205 200" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="168" y1="203" x2="198" y2="203" stroke="#4B5563" stroke-width="1.5"/>
+
+  <!-- Descriptive Technical Annotations (Textbook style) -->
+  <g font-family="'Courier New', Courier, monospace" font-size="10" fill="#374151">
+    <text x="24" y="278">1. LEFT PALM: BASE PLATFORM (UPWARD)</text>
+    <text x="24" y="294">2. RIGHT FIST: RESTS ON BASE</text>
+    <text x="210" y="294">3. LIFT TOGETHER ↑</text>
+  </g>
+</svg>

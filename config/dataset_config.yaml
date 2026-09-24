@@ -1,0 +1,38 @@
+# Dataset Configuration for HTH-CV-09 Accessibility Bridge
+project:
+  name: "HTH-CV-09-Accessibility-Bridge"
+  language: "ISL"
+  language_full: "Indian Sign Language"
+
+paths:
+  local_dataset_dir: "Video_Dataset/Video_Dataset"
+  asl_dataset_dir: "asl_alphabet_train/asl_alphabet_train"
+  sample_videos_dir: "Sample Videos"
+  landmarks_dir: "datasets/landmarks"
+  processed_dir: "datasets/processed"
+  models_dir: "models"
+  reports_dir: "reports"
+
+sampling:
+  frames_per_video: 3
+  steady_state_margin: 0.20
+  asl_images_per_class: 120
+
+preprocessing:
+  normalize_wrist: true
+  normalize_scale: true
+  single_hand_dim: 93
+  dual_hand_dim: 194
+  support_two_hands: true
+
+augmentation:
+  enabled_for_training_only: true
+  jitter_std: 0.012
+  scale_variation: [0.92, 1.08]
+  include_horizontal_flip: true
+  samples_per_original: 1
+
+split:
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42

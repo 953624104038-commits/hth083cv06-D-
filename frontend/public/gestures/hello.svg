@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 320" width="100%" height="100%">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <!-- Clean White Textbook Paper Background -->
+  <rect width="360" height="320" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="340" height="300" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+
+  <!-- Top Reference Header -->
+  <text x="24" y="32" font-family="'Times New Roman', Georgia, serif" font-size="12" font-weight="bold" fill="#374151" letter-spacing="1">
+    FIG. 01 — ISL: HELLO (GREETING)
+  </text>
+  <line x1="24" y1="38" x2="336" y2="38" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ================= DOTTED END POSITION (WAVE MOTION) ================= -->
+  <g stroke="#9CA3AF" stroke-width="2" stroke-dasharray="4 4" fill="#F9FAFB" fill-opacity="0.6">
+    <!-- Dotted forearm & wrist tilted -->
+    <path d="M 215 260 L 210 205 L 245 200 L 260 255 Z"/>
+    <!-- Dotted palm -->
+    <path d="M 208 205 C 205 185 210 160 216 145 C 225 142 245 142 254 150 C 258 165 255 185 246 200 Z"/>
+    <!-- Dotted thumb -->
+    <path d="M 207 190 C 190 180 180 165 185 152 C 189 146 198 150 205 162 Z"/>
+    <!-- Dotted 4 fingers tilted outward -->
+    <path d="M 218 145 L 228 85 C 231 80 239 82 237 88 L 229 144 Z"/>
+    <path d="M 230 144 L 244 75 C 247 70 255 72 253 78 L 240 144 Z"/>
+    <path d="M 241 145 L 258 83 C 261 78 269 80 266 87 L 249 147 Z"/>
+    <path d="M 250 148 L 270 102 C 273 97 280 100 277 106 L 256 156 Z"/>
+  </g>
+
+  <!-- ================= PRIMARY HAND (BLACK INK TEXTBOOK ART) ================= -->
+  <!-- Forearm and Wrist -->
+  <path d="M 152 275 L 156 205 C 156 198 159 194 163 192 L 197 192 C 201 194 204 198 204 205 L 208 275 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Wrist crease lines -->
+  <path d="M 160 215 C 172 218 188 218 200 215" fill="none" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 163 223 C 174 226 186 226 197 223" fill="none" stroke="#9CA3AF" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Main Palm -->
+  <path d="M 154 200 C 146 185 147 165 152 148 C 160 142 195 142 205 148 C 212 165 212 185 204 200 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Palm Thenar & Life Creases -->
+  <path d="M 153 178 C 165 185 174 195 178 205" fill="none" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 160 155 C 175 160 190 158 198 165" fill="none" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 158 170 C 176 175 188 178 196 188" fill="none" stroke="#9CA3AF" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Thumb (Open forward/lateral naturally) -->
+  <path d="M 154 186 C 142 180 126 170 120 156 C 117 148 124 142 131 146 C 138 151 145 159 152 168 Z"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 126 156 C 130 158 135 162 138 166" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Index Finger (Upright, clearly delineated) -->
+  <path d="M 153 148 L 153 82 C 153 74 163 74 163 82 L 163 144"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Knuckle & Phalange creases -->
+  <line x1="154" y1="124" x2="162" y2="124" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="154" y1="102" x2="162" y2="102" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Middle Finger (Tallest) -->
+  <path d="M 164 144 L 165 70 C 165 62 176 62 176 70 L 176 144"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="166" y1="118" x2="175" y2="118" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="166" y1="94" x2="175" y2="94" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Ring Finger -->
+  <path d="M 177 144 L 178 78 C 178 70 188 70 188 78 L 188 145"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="179" y1="120" x2="187" y2="120" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="179" y1="98" x2="187" y2="98" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Pinky Finger -->
+  <path d="M 189 146 L 192 98 C 192 91 201 91 201 98 L 198 152"
+        fill="#FFFFFF" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="191" y1="130" x2="198" y2="130" stroke="#6B7280" stroke-width="1.2"/>
+  <line x1="192" y1="112" x2="199" y2="112" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- ================= INSTRUCTIONAL MOTION ARROWS ================= -->
+  <!-- Wave Motion Curved Arrow -->
+  <path d="M 175 48 C 205 38 235 48 252 64" fill="none" stroke="#111827" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M 235 68 C 215 56 195 56 178 60" fill="none" stroke="#4B5563" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Motion Vibration Lines on side of waving hand -->
+  <path d="M 285 85 C 292 95 292 110 285 120" fill="none" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 295 80 C 305 95 305 115 295 130" fill="none" stroke="#111827" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Descriptive Technical Annotations (Textbook style) -->
+  <g font-family="'Courier New', Courier, monospace" font-size="10" fill="#374151">
+    <text x="24" y="275">1. RIGHT HAND OPEN</text>
+    <text x="24" y="292">2. PALM OUTWARD</text>
+    <text x="220" y="292">3. GENTLE WAVE →</text>
+  </g>
+</svg>

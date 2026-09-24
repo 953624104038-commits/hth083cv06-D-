@@ -1,0 +1,67 @@
+# Application Runtime Configuration
+app:
+  name: "Accessibility-First Sign Language Communication Bridge"
+  version: "1.0.0"
+  language: "ISL"
+  language_full: "Indian Sign Language"
+
+server:
+  host: "0.0.0.0"
+  backend_port: 8000
+  frontend_port: 5173
+  cors_origins:
+    - "http://localhost:5173"
+    - "http://127.0.0.1:5173"
+    - "http://localhost:3000"
+    - "http://127.0.0.1:3000"
+
+cv_pipeline:
+  camera_width: 640
+  camera_height: 480
+  processing_fps: 30
+  num_hands: 2
+  min_detection_confidence: 0.50
+  min_presence_confidence: 0.50
+  min_tracking_confidence: 0.50
+  task_model_path: "models/hand_landmarker.task"
+
+inference:
+  model_path: "models/isl_words_model.pkl"
+  label_encoder_path: "models/isl_label_encoder.pkl"
+  metadata_path: "models/isl_metadata.json"
+  asl_model_path: "models/asl_alphabet_model.pkl"
+  asl_label_encoder_path: "models/asl_label_encoder.pkl"
+  asl_metadata_path: "models/asl_metadata.json"
+  confidence_threshold: 0.48
+  unclear_threshold: 0.28
+  smoothing_window: 4
+  min_stable_count: 2
+
+text_to_speech:
+  enabled: true
+  auto_speak: false
+  rate: 1.0
+  pitch: 1.0
+  language_code: "en-IN"
+
+staff_two_way:
+  enabled: true
+  quick_phrases:
+    - id: "WAIT"
+      text: "Please wait a moment"
+      sign_hint: "Show STOP / WAIT sign"
+    - id: "DOC"
+      text: "Please submit your documents"
+      sign_hint: "Show GIVE sign"
+    - id: "NAME"
+      text: "Please tell your name"
+      sign_hint: "Show WHAT IS YOUR NAME sign"
+    - id: "HELP"
+      text: "How may I help you today?"
+      sign_hint: "Show HELP sign"
+    - id: "WATER"
+      text: "Drinking water is available on your left"
+      sign_hint: "Show WATER sign"
+    - id: "DONE"
+      text: "Your application is completed. Thank you!"
+      sign_hint: "Show THANK YOU sign"
